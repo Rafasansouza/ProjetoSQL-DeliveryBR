@@ -14,7 +14,7 @@ Este projeto desafiador integra uma parcela do conhecimento adquirido durante os
    - No mesmo link, você encontrará a descrição dos dados e detalhes sobre o cenário em que foram extraídos. É importante ler atentamente para compreender o que cada dataset representa (o texto está em português).
 
 3. **Carregamento dos Dados no Banco de Dados**: 
-   - Utilize o Table Import Wizard (mostrado na solução do exercício 3) para importar os dados no MySQL. Crie uma tabela para cada arquivo, usando o nome do arquivo como nome da tabela.
+   - Utilize o Table Import Wizard para importar os dados no MySQL. Crie uma tabela para cada arquivo, usando o nome do arquivo como nome da tabela.
    - **Observações Importantes**:
      - Alguns arquivos têm milhões de registros, e o tempo de carga pode ser alto, então seja paciente ou faça o carregamento via terminal para que o processo seja rapido.
      - O arquivo `hubs.csv` contém caracteres especiais. Edite o arquivo para substituir "SÃO PAULO" por "SAO PAULO" (sem acento) para evitar problemas no MySQL Workbench.
